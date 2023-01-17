@@ -1,0 +1,17 @@
+"C:\Users\Administrator\Documents\Perkuliahan Kookmin\Paper\OCC\linh_tx" 
+*code linh_tx digunakan pada arduino dengan LED matriix 8x8 untuk mendeteksi DHT 22 dan 1D lidar sensor
+
+"C:\Users\Administrator\Documents\Perkuliahan Kookmin\Paper\OCC\Code dari linh\RX_linh.py"
+* code ini digunakan pada file TX side, tapi code RX_linh tidak bisa di aplikaskan untuk DL for LED detection. 
+-- harus mempelajari YoLoV5.
+
+"C:\Users\Administrator\Documents\Perkuliahan Kookmin\Paper\OCC\Code dari linh\detectLED.py"
+* digunakan untuk membuat model LED detection, dengan menggabungkan code diatas dengan AI =====
+
+
+ "C:\Users\Administrator\Documents\Perkuliahan Kookmin\Paper\OCC\Code dari linh\best.pt"
+* model ini untuk model yoloV5s
+
+
+DetectLED adalah yolo versi 5 yang menggunakan deep learning dan code ini digunakan untuk mendeteksi led.
+Output dari program ini akan menghasilkan best.pt. (best.pt adalah output dari program)
