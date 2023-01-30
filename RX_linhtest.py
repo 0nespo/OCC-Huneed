@@ -146,8 +146,8 @@ while(True):
         if bit[0:8]==[1,0,1,1,1,0,0,1]:
             cv2.putText(frame, "Temperature: " + str(tem1) +"*C", (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
             cv2.putText(frame, "Humidity: " + str(hum1) + "%", (50, 80), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
-            cv2.putText(frame, "Distance: " + str(dis1) + "cm", (50,110 ), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
-            cv2.putText(frame, "Vibration: " + str(vib1) + "Hz", (50,140 ), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
+            cv2.putText(frame, "Vibration: " + str(vib1) + "Hz", (50,110 ), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
+            #cv2.putText(frame, "Vibration: " + str(vib1) + "Hz", (50,140 ), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
         #   cv2.putText(frame, "Analog sound: " + str(sound) + "cm", (50,110 ), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
 
         cv2.imshow('frame',frame)
